@@ -1,13 +1,4 @@
 proxies:
-  - name: 'fufang0617'
-    type: vmess
-    server: 127.0.0.1
-    port: 80
-    uuid: b1615a10-b7ab-11eb-b739-9160314e12e6
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
   - name: '❶台湾 02 [M]'
     type: vmess
     server: js02.balala2016.xyz
