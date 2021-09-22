@@ -8,6 +8,15 @@ proxies:
     cipher: auto
     udp: true
     skip-cert-verify: true
+  - name: 备用地址：学习强国
+    type: vmess
+    server: 127.0.0.1
+    port: 80
+    uuid: 1be957f0-16bd-11ec-bb72-e1efcaff21c4
+    alterId: 0
+    cipher: auto
+    udp: true
+    skip-cert-verify: true
   - name: '❶台湾 02 [M]'
     type: vmess
     server: js02.balala2016.xyz
@@ -378,6 +387,7 @@ proxy-groups:
     proxies:
       - "\U0001F680 自动选优"
       - '过期：学习强国'
+      - 备用地址：学习强国
       - '❶台湾 02 [M]'
       - ❶香港 51
       - ❶香港 52
@@ -417,6 +427,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '过期：学习强国'
+      - 备用地址：学习强国
       - '❶台湾 02 [M]'
       - ❶香港 51
       - ❶香港 52
