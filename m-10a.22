@@ -1,5 +1,5 @@
 proxies:
-  - name: '过期：m-10a.22'
+  - name: '学习m-10a.22'
     type: vmess
     server: 127.0.0.1
     port: 80
@@ -386,7 +386,7 @@ proxy-groups:
     type: select
     proxies:
       - "\U0001F680 自动选优"
-      - '过期：m-10a.22'
+      - '学习m-10a.22'
       - m-10a.22
       - '❶台湾 02 [推荐]'
       - ❶香港 51
@@ -426,7 +426,7 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
-      - '过期：m-10a.22'
+      - '学习m-10a.22'
       - m-10a.22
       - '❶台湾 02 [推荐]'
       - ❶香港 51
